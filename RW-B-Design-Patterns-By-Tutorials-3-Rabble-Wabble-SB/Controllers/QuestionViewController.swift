@@ -46,6 +46,11 @@ public class QuestionViewController: UIViewController {
 
   // MARK: - Instance Properties
   public weak var delegate: QuestionViewControllerDelegate?
+  public var questionStrategy: QuestionStrategy! {
+    didSet {
+      navigationItem.title = questionStrategy.title
+    }
+  }
   
   public var questionGroup: QuestionGroup! {
     didSet {
@@ -98,7 +103,8 @@ public class QuestionViewController: UIViewController {
   }
   
   private func showQuestion() {
-    let question = questionGroup.questions[questionIndex]
+    // 1
+    let question = questionStrategy.currentQuestion()
     
     questionView.answerLabel.text = question.answer
     questionView.promptLabel.text = question.prompt
@@ -106,8 +112,9 @@ public class QuestionViewController: UIViewController {
     
     questionView.answerLabel.isHidden = true
     questionView.hintLabel.isHidden = true
-    questionIndexItem.title = "\(questionIndex + 1)/" +
-    "\(questionGroup.questions.count)"
+    
+    // 2
+    questionIndexItem.title = questionStrategy.questionIndexTitle()
   }
   
   // MARK: - Actions
