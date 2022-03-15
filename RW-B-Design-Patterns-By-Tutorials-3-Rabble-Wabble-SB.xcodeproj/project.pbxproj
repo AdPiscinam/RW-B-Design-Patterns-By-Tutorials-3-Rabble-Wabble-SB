@@ -100,7 +100,7 @@
 		4244529622EC2AFB001C3BC3 = {
 			isa = PBXGroup;
 			children = (
-				424452A122EC2AFB001C3BC3 /* RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble */,
+				424452A122EC2AFB001C3BC3 /* RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble-SB */,
 				424452A022EC2AFB001C3BC3 /* Products */,
 			);
 			indentWidth = 2;
@@ -115,7 +115,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		424452A122EC2AFB001C3BC3 /* RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble */ = {
+		424452A122EC2AFB001C3BC3 /* RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble-SB */ = {
 			isa = PBXGroup;
 			children = (
 				420C7C5122EC8F1600472B72 /* AppDelegate */,
@@ -124,7 +124,7 @@
 				420C7C5222EC8F3700472B72 /* Controllers */,
 				420C7C5422EC8F5D00472B72 /* Resources */,
 			);
-			path = "RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble";
+			path = "RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble-SB";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +162,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4244529A22EC2AFB001C3BC3 /* Build configuration list for PBXProject "RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble" */;
+			buildConfigurationList = 4244529A22EC2AFB001C3BC3 /* Build configuration list for PBXProject "RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble-SB" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -377,7 +377,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4244529A22EC2AFB001C3BC3 /* Build configuration list for PBXProject "RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble" */ = {
+		4244529A22EC2AFB001C3BC3 /* Build configuration list for PBXProject "RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble-SB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				424452B122EC2AFC001C3BC3 /* Debug */,
