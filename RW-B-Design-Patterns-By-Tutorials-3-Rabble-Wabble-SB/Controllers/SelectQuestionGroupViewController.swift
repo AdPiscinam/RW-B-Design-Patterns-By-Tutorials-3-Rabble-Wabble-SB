@@ -73,6 +73,8 @@ extension SelectQuestionGroupViewController: UITableViewDelegate {
     guard let viewController = segue.destination
       as? QuestionViewController else { return }
     viewController.questionStrategy = RandomQuestionStrategy(questionGroup: selectedQuestionGroup)
+    // For ordered Question use the line below instead of the one just above
+    //viewController.questionStrategy = SequentialQuestionStrategy(questionGroup: selectedQuestionGroup)
     viewController.delegate = self
   }
 }
