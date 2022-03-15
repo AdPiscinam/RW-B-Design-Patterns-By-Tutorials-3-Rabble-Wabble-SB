@@ -100,7 +100,7 @@
 		4244529622EC2AFB001C3BC3 = {
 			isa = PBXGroup;
 			children = (
-				424452A122EC2AFB001C3BC3 /* RabbleWabble */,
+				424452A122EC2AFB001C3BC3 /* RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble */,
 				424452A022EC2AFB001C3BC3 /* Products */,
 			);
 			indentWidth = 2;
@@ -115,7 +115,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		424452A122EC2AFB001C3BC3 /* RabbleWabble */ = {
+		424452A122EC2AFB001C3BC3 /* RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble */ = {
 			isa = PBXGroup;
 			children = (
 				420C7C5122EC8F1600472B72 /* AppDelegate */,
@@ -124,7 +124,6 @@
 				420C7C5222EC8F3700472B72 /* Controllers */,
 				420C7C5422EC8F5D00472B72 /* Resources */,
 			);
-			name = RabbleWabble;
 			path = "RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble";
 			sourceTree = "<group>";
 		};
@@ -346,7 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RabbleWabble/Resources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,7 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RabbleWabble/Resources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
