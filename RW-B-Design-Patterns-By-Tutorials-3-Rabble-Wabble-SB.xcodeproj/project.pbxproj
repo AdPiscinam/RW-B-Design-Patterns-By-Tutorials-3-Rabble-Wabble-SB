@@ -19,6 +19,8 @@
 		425C94BC22EF3371007B51EE /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425C94BB22EF3371007B51EE /* QuestionView.swift */; };
 		42FBF7D522EF67CF00186FF0 /* SelectQuestionGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FBF7D422EF67CF00186FF0 /* SelectQuestionGroupViewController.swift */; };
 		42FBF7D722EF67F900186FF0 /* QuestionGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FBF7D622EF67F900186FF0 /* QuestionGroupCell.swift */; };
+		59D13A9027E0A3DD00F9C1B1 /* QuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D13A8F27E0A3DD00F9C1B1 /* QuestionStrategy.swift */; };
+		59D13A9227E0A4EC00F9C1B1 /* SequentialQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D13A9127E0A4EC00F9C1B1 /* SequentialQuestionStrategy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		425C94BB22EF3371007B51EE /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		42FBF7D422EF67CF00186FF0 /* SelectQuestionGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectQuestionGroupViewController.swift; sourceTree = "<group>"; };
 		42FBF7D622EF67F900186FF0 /* QuestionGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupCell.swift; sourceTree = "<group>"; };
+		59D13A8F27E0A3DD00F9C1B1 /* QuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStrategy.swift; sourceTree = "<group>"; };
+		59D13A9127E0A4EC00F9C1B1 /* SequentialQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequentialQuestionStrategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,9 +126,19 @@
 				420C7C5322EC8F5900472B72 /* Models */,
 				420C7C5522EC8F6200472B72 /* Views */,
 				420C7C5222EC8F3700472B72 /* Controllers */,
+				59D13A8E27E0A3C000F9C1B1 /* Strategies */,
 				420C7C5422EC8F5D00472B72 /* Resources */,
 			);
 			path = "RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble-SB";
+			sourceTree = "<group>";
+		};
+		59D13A8E27E0A3C000F9C1B1 /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				59D13A8F27E0A3DD00F9C1B1 /* QuestionStrategy.swift */,
+				59D13A9127E0A4EC00F9C1B1 /* SequentialQuestionStrategy.swift */,
+			);
+			path = Strategies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +218,8 @@
 				425C94BC22EF3371007B51EE /* QuestionView.swift in Sources */,
 				425C94B622EF22BC007B51EE /* QuestionGroupData.swift in Sources */,
 				42FBF7D722EF67F900186FF0 /* QuestionGroupCell.swift in Sources */,
+				59D13A9227E0A4EC00F9C1B1 /* SequentialQuestionStrategy.swift in Sources */,
+				59D13A9027E0A3DD00F9C1B1 /* QuestionStrategy.swift in Sources */,
 				425C94B422EF21D3007B51EE /* QuestionGroup.swift in Sources */,
 				42FBF7D522EF67CF00186FF0 /* SelectQuestionGroupViewController.swift in Sources */,
 				424452A522EC2AFB001C3BC3 /* SceneDelegate.swift in Sources */,
@@ -345,7 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble-SB/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,7 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/RW-B-Design-Patterns-By-Tutorials-3-Rabble-Wabble-SB/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
