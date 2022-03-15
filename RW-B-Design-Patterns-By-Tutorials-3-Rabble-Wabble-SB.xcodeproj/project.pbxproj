@@ -21,6 +21,7 @@
 		42FBF7D722EF67F900186FF0 /* QuestionGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FBF7D622EF67F900186FF0 /* QuestionGroupCell.swift */; };
 		59D13A9027E0A3DD00F9C1B1 /* QuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D13A8F27E0A3DD00F9C1B1 /* QuestionStrategy.swift */; };
 		59D13A9227E0A4EC00F9C1B1 /* SequentialQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D13A9127E0A4EC00F9C1B1 /* SequentialQuestionStrategy.swift */; };
+		59D13A9427E0A58800F9C1B1 /* RandomQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D13A9327E0A58800F9C1B1 /* RandomQuestionStrategy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		42FBF7D622EF67F900186FF0 /* QuestionGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupCell.swift; sourceTree = "<group>"; };
 		59D13A8F27E0A3DD00F9C1B1 /* QuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStrategy.swift; sourceTree = "<group>"; };
 		59D13A9127E0A4EC00F9C1B1 /* SequentialQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequentialQuestionStrategy.swift; sourceTree = "<group>"; };
+		59D13A9327E0A58800F9C1B1 /* RandomQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuestionStrategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			children = (
 				59D13A8F27E0A3DD00F9C1B1 /* QuestionStrategy.swift */,
 				59D13A9127E0A4EC00F9C1B1 /* SequentialQuestionStrategy.swift */,
+				59D13A9327E0A58800F9C1B1 /* RandomQuestionStrategy.swift */,
 			);
 			path = Strategies;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				425C94B622EF22BC007B51EE /* QuestionGroupData.swift in Sources */,
 				42FBF7D722EF67F900186FF0 /* QuestionGroupCell.swift in Sources */,
 				59D13A9227E0A4EC00F9C1B1 /* SequentialQuestionStrategy.swift in Sources */,
+				59D13A9427E0A58800F9C1B1 /* RandomQuestionStrategy.swift in Sources */,
 				59D13A9027E0A3DD00F9C1B1 /* QuestionStrategy.swift in Sources */,
 				425C94B422EF21D3007B51EE /* QuestionGroup.swift in Sources */,
 				42FBF7D522EF67CF00186FF0 /* SelectQuestionGroupViewController.swift in Sources */,
